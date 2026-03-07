@@ -23,7 +23,7 @@ Simulates an industrial hydraulic press safety system.
 - Includes an emergency button wired to an external interrupt (RB0) that immediately raises the piston.
 - Written in **Assembly**.
 
-### 3. Timer0 LED Blink (`7segment-counter`)
+### 3. Timer0 LED Blink (`timer-led`)
 Alternates two LEDs every 500ms using the Timer0 peripheral with interrupts.
 - Configures Timer0 with a prescaler to generate periodic interrupts.
 - Uses context saving/restoring inside the interrupt service routine.
